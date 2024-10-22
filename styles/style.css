@@ -103,7 +103,7 @@ button {
     margin: 10px;
     background: #f04;
     color: white;
-    border: none;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -145,9 +145,11 @@ button:hover {
 
 /* services style */
 .services {
+    margin: 0 auto;
     background-color: black;
-    padding: 3rm 1rm;
+    padding: 30px 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .service-items {
@@ -160,9 +162,66 @@ button:hover {
     margin: 20px;
     padding: 20px;
     background: black;
-    border-radius: 80px;
     width: 300px;
 }
+.service-item img {
+    border-radius: 100%;
+}
+
+
+/* run style */
+.run {
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.run-content {
+    text-align: center;
+}
+
+.run-content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.run-content p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.run-img {
+    width: 100%;
+}
+
+.run-img img{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+
+/*@media screen and (max-width: 576px) {
+    .run {
+        flex-direction: row-reverse;
+    }
+    .run-content {
+        text-align: left;
+    }
+    .run-image {
+        margin-right: 150px;
+    }
+}*/
+
+
+
+
 
 
 
