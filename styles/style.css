@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", serif;
+    background-image: linear-gradient(180deg,rgba(17, 17, 17, 0.9),rgba(119, 119, 119, 0.7) 100%);
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+
+/* hero style */
+.hero {
+    background: url('../images/Images\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: #f04;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d03;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: #f8f8f8;
+}
+
+.stats div{
+    text-align: center;
+}
+
+.stats h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+
+
+
